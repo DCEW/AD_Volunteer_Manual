@@ -1,0 +1,52 @@
+project:
+  type: book
+
+book:
+  title: "Alnwick Dolphins"
+  subtitle: "Volunteer Manual"
+  author: "Claire Welsh"
+  date: "06/09/2026"
+  description: "A guide to how to contribute your time to help our swimmers flourish."
+  chapters:
+    - index.qmd
+    - part: committee_roles.qmd
+      chapters:
+        - chair.qmd
+        - vice-chair.qmd
+        - treasurer.qmd
+        - secretary.qmd
+        - membership-secretary.qmd
+        - fundraising-coordinator.qmd
+        - swimmark-coordinator.qmd
+        - coach-representative.qmd
+        - parent-representative.qmd
+        - volunteer-coordinator.qmd
+        - competition-secretary.qmd
+    - part: non_committee_roles.qmd
+      chapters:
+        - welfare-officer.qmd
+        - head-coach.qmd
+        - coach.qmd
+    - part: gala_roles.qmd
+      chapters:
+        - official.qmd
+        - team-manager.qmd
+        - marshall.qmd
+    - training.qmd
+    - code_of_conduct.qmd
+    - references.qmd
+  sidebar:
+    logo: "logo.jpg"
+    collapse-level: 1
+
+bibliography: references.bib
+
+format:
+  html:
+    code-fold: true
+    theme:
+      - cosmo
+      - brand
+
+
+
