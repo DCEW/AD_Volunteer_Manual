@@ -1,0 +1,24 @@
+# Gala checklist
+
+For every home gala, the [Lead Organiser](gala_roles.qmd) needs to ensure the 
+following tasks are completed.
+The person in the named role is responsible for ensuring the tasks assigned to 
+that roll are completed.
+
+```{r}
+library(dplyr)
+library(gt)
+
+data <- read.csv("gala-checklist.csv", check.names = FALSE) |>
+    mutate(Timing = factor(Timing, levels=c("Before","During","After "))) |>
+    arrange(Timing) |>
+    gt() |>
+    fmt_markdown(columns = `Responsible Person`) |>
+    data_color(columns = Timing,
+    target_columns = everything(),
+    method = "factor",
+    palette = c("#ABDEE6","#F3B0C3","#CCE2CB"),
+    alpha = 0.3) 
+data 
+```
+

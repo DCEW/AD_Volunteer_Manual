@@ -21,6 +21,7 @@ book:
         - official.qmd
         - team-manager.qmd
         - marshall.qmd
+        - gala-checklist.qmd
     - part: committee_roles.qmd
       chapters:
         - chair.qmd
@@ -29,7 +30,6 @@ book:
         - secretary.qmd
         - membership-secretary.qmd
         - fundraising-coordinator.qmd
-
         - coach-representative.qmd
         - parent-representative.qmd
         - workforce-coordinator.qmd

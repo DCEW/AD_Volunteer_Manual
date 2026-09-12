@@ -17,7 +17,7 @@ each time are:
 
 - Lead organiser
 
-This person takes responsibility for ensuring the gala checklist is
+This person takes responsibility for ensuring the [gala checklist](gala-checklist.qmd) is
 completed on time for their gala. 
 They ensure each named and unnamed role is filled as needed, and often also perform the
 role of Runner on the day. 
