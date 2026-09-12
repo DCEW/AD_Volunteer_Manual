@@ -5,6 +5,10 @@ Through their expertise, enthusiasm, skills and experience, they get to know all
 the swimmers in their squads, advocating for each swimmer and helping them 
 achieve their goals.
 
+You don't need to be a swimmer or have prior involvement in the sport to start your coaching journey.
+New coaches start out as Assistant Coaches, before progressing to a Coach position.
+They can also then progress to Senior Coach. 
+
 The coaches ensure they maintain their training to a high standard.
 They devote a lot of their own time every week to train our swimmers and 
 coordinate a varied, interesting and challenging training schedule that allows
@@ -12,6 +16,30 @@ everyone to be stretched and challenged.
 
 Coaches are self-organised and punctual, and report to the [head coach](head-coach.qmd).
 
+Training is available through Swim England. You can find further details [here](https://instituteofswimming.org/coaching-swimming).
+Alnwick Dolphins typically covers the full cost of this training through its
+[Institute of Swimming](https://instituteofswimming.org/) vouchers.
+Because of this, we expect a Coach to stay in the role for at least one year.
+
+To find out more about becoming a coach, speak to the club's [Workforce Coordinator](), 
+[Head Coach](), or[Club Secretary](mailto:secretary@alnwickdolphins.co.uk).
+
 ## Requirements
 - DBS certificate
-- up to date training
+- up to date [training](https://instituteofswimming.org/coaching-training/)
+- Registration with Swim England
+
+## Current coaches
+
+```{r}
+library(dplyr)
+library(gt)
+
+dat <- read.csv("roles.csv") |>
+    filter(Role == "Coach ") |>
+    select(group, Currently) |>
+    rename("Coach" = Currently,
+    "Squad group" = group) |>
+    gt() 
+dat
+```

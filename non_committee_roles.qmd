@@ -1,1 +1,19 @@
-# Non-committee Roles
+# Longer Term Non-committee Roles
+
+The current holders of longer term (i.e. not only for events) positions that are 
+not part of the committee are:
+
+```{r}
+library(dplyr)
+library(gt)
+
+noncom <- read.csv("roles.csv") |>
+    filter(Committee == "", Role != "Coach ") |>
+    select(Role, Currently) |>
+    rename("Currently held by" = Currently) |>
+    gt() |>
+    fmt_markdown(columns = Role)
+noncom
+```
+
+If you are interested in becoming a Coach, see our dedicated [coaches page](coach.qmd).

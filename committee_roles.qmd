@@ -10,3 +10,19 @@ a number of years at a time.
 
 Where relevant, Swim England provides [guides](https://www.swimming.org/library/115) to each of these roles, which you can find on their website, and are linked in each role page that follows.
 
+Current volunteers holding named positions on the committee are as follows:
+
+```{r}
+library(dplyr)
+library(gt)
+
+dat <- read.csv("roles.csv") |>
+    filter(Committee == "yes") |>
+    select(Role, Currently) |>
+    rename("Currently held by" = Currently) |>
+    gt() |>
+    fmt_markdown(columns = Role)
+dat
+```
+
+

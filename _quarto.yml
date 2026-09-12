@@ -9,6 +9,18 @@ book:
   description: "A guide to how to contribute your time to help our swimmers flourish."
   chapters:
     - index.qmd
+    - part: non_committee_roles.qmd
+      chapters:
+        - competition-secretary.qmd
+        - welfare-officer.qmd
+        - head-coach.qmd
+        - coach.qmd
+        - swimmark-coordinator.qmd
+    - part: gala_roles.qmd
+      chapters:
+        - official.qmd
+        - team-manager.qmd
+        - marshall.qmd
     - part: committee_roles.qmd
       chapters:
         - chair.qmd
@@ -17,27 +29,23 @@ book:
         - secretary.qmd
         - membership-secretary.qmd
         - fundraising-coordinator.qmd
-        - swimmark-coordinator.qmd
+
         - coach-representative.qmd
         - parent-representative.qmd
-        - volunteer-coordinator.qmd
-        - competition-secretary.qmd
-    - part: non_committee_roles.qmd
-      chapters:
-        - welfare-officer.qmd
-        - head-coach.qmd
-        - coach.qmd
-    - part: gala_roles.qmd
-      chapters:
-        - official.qmd
-        - team-manager.qmd
-        - marshall.qmd
+        - workforce-coordinator.qmd
     - training.qmd
     - code_of_conduct.qmd
     - references.qmd
+    
+
   sidebar:
     logo: "logo.jpg"
     collapse-level: 1
+
+execute:
+  echo: false
+  message: false
+  warning: false
 
 bibliography: references.bib
 
