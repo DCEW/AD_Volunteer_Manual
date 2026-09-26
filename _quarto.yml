@@ -8,8 +8,10 @@ book:
   author: "Claire Welsh"
   date: "06/09/2026"
   description: "A guide to how to contribute your time to help our swimmers flourish."
+
   chapters:
     - index.qmd
+
     - part: committee_roles.qmd
       chapters:
         - chair.qmd
@@ -21,6 +23,7 @@ book:
         - coach-representative.qmd
         - parent-representative.qmd
         - workforce-coordinator.qmd
+
     - part: non_committee_roles.qmd
       chapters:
         - competition-secretary.qmd
@@ -28,19 +31,16 @@ book:
         - head-coach.qmd
         - coach.qmd
         - swimmark-coordinator.qmd
+
     - part: gala_roles.qmd
       chapters:
         - official.qmd
         - team-manager.qmd
         - marshall.qmd
         - gala-checklist.qmd
+
     - training.qmd
     - code_of_conduct.qmd
-    
-
-  sidebar:
-    logo: "logo.jpg"
-    collapse-level: 1
 
 execute:
   echo: false
@@ -55,6 +55,6 @@ format:
     theme:
       - cosmo
       - brand
-
-
-
+    sidebar:
+      logo: "logo.jpg"
+      collapse-level: 1
