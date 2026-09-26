@@ -1,7 +1,7 @@
 # Coaches
 
 Swimming coaches are possibly the most important people in the club. 
-Through their expertise, enthusiasm, skills and experience, they get to know all
+Through their expertise and enthusiasm, they get to know all
 the swimmers in their squads, advocating for each swimmer and helping them 
 achieve their goals.
 

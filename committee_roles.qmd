@@ -1,9 +1,17 @@
 # Committee Roles 
 
 These roles are held continuously from one AGM until the next.
+They are proposed, seconded and elected by the committee at the AGM.
 The minimum tenure is therefore one year, except in exceptional circumstances.
 
-We always welcome enthusiastic new recruites, and if you have some time to spare
+The Chairperson, Treasurer and Secretary together constitute the "Executive Officers
+of the Club". The committee must be made up of these three people, plus at least
+four other elected club members.
+
+The Committee meets in person at least quarterly, in Alnwick.
+AGM's are held in May or June annually.
+
+We always welcome enthusiastic new recruits, and if you have some time to spare
 we can work with you to help you find a way to contribute. 
 However, these roles also benefit from some continuity, and are often held for 
 a number of years at a time.
@@ -25,4 +33,15 @@ dat <- read.csv("roles.csv") |>
 dat
 ```
 
+## What happens at an AGM?
 
+The annual general meeting is a meeting of the whole club where the purpose is:
+
+- to receive the Chairman’s report of the activities of the Club during the previous year
+- to receive and consider the accounts of the Club for the previous year and the report
+on the accounts of the independent examiner and the Treasurer's report as to the
+financial position of the Club
+- to remove and elect the independent examiner (who must not be a member of the
+Committee or a member of the family of a member of the Committee) or confirm that
+he/she remain in office
+- to elect the Executive Officers and other members of the Committee

@@ -3,8 +3,8 @@
 A British Swimming Official is a voluntary role. 
 To become an Official, you do not need any prior experience, or swimming knowledge.
 We always need to have new Officials coming through because swims cannot be 
-recorded with Swim England if the right number of each type of Official is present
-at our events, otherwise the swimmers' times cannot be used to enter certain 
+recorded with Swim England if the right number of each type of Official is not present
+at our events. If swims cannot be recorded with Swim England, the swimmers' times cannot be used to enter certain 
 competitions.
 
 Each of the following Official roles require a volunteer to commit to undertake
@@ -12,7 +12,8 @@ Each of the following Official roles require a volunteer to commit to undertake
 They are listed in order of completion, so you must become a Timekeeper before
 you can become a Level 1 judge, for example.
 Which events they volunteer to help at is, however, up to them. 
-Being a registered Official does not mandate you beign available for every event!
+
+Being a registered Official does **not** mean you need to be available for every event!
 The more Officials we have, the less each will need to do to cover our home galas.
 
 
@@ -23,10 +24,16 @@ It requires you to complete a short course of [official training](https://www.br
 
 - **Judges**
 Judges are people who have completed the [Institute of Swimming](www.swimming.org/ios/courses-officials-volunteers/) training within a time limit of 11 months to receive their judging license (valid for 4 years).
+
 There are thee levels of judges. 
+
 Level 1 is the lowest (entry) level judge.
-Level 2 judges require to have completed  over 20 hours of level 1 judging duties
-alongside completing additional training. They must be over 15.
+These judges can act as turn judges.
+
+Level 2 judges require to have completed  over 20 hours of level 1 judging duties alongside completing additional training. 
+They must be over 15.
+Level 2 judges can be stroke judges.
+
 Level 2S (Starter) is the highest judge level. 
 This is for volunteers who have progressed through levels 1 and 2 and wish to 
 qualify as an official Starter.
