@@ -8,7 +8,9 @@ book:
   author: "Claire Welsh"
   date: "06/09/2026"
   description: "A guide to how to contribute your time to help our swimmers flourish."
-
+  sidebar:
+    logo: "logo.jpg"
+    collapse-level: 1
   chapters:
     - index.qmd
 
@@ -55,6 +57,3 @@ format:
     theme:
       - cosmo
       - brand
-    sidebar:
-      logo: "logo.jpg"
-      collapse-level: 1
