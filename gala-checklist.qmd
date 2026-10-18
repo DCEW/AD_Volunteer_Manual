@@ -10,7 +10,7 @@ library(dplyr)
 library(gt)
 
 data <- read.csv("gala-checklist.csv", check.names = FALSE) |>
-    select(Timing, Action, `Responsible Person`)
+    select(Timing, Action, `Responsible Person`) |>
     gt() |>
     fmt_markdown(columns = `Responsible Person`) 
 data 
