@@ -10,67 +10,24 @@ library(dplyr)
 library(gt)
 
 data <- read.csv("gala-checklist.csv", check.names = FALSE) |>
-    mutate(Timing = factor(Timing, levels=c("Before","During","After "))) |>
-    arrange(Timing) |>
+    select(Timing, Action, `Responsible Person`)
     gt() |>
-    fmt_markdown(columns = `Responsible Person`) |>
-    data_color(columns = Timing,
-    target_columns = everything(),
-    method = "factor",
-    palette = c("#ABDEE6","#F3B0C3","#CCE2CB"),
-    alpha = 0.3) 
+    fmt_markdown(columns = `Responsible Person`) 
 data 
 ```
 
-Responsibilities
-Lead organiser: coordinate the completion of the gala checklist, ensuring all
-other contributors fulfill their roles on time.
+The pool layout plan needs to be shared with Willowburn a week before the event.
+For multi-session galas, the main plan is used, along with the studio layout plan.
+For smaller half-day events the second plan is required.
 
-Morning bacon sandwiches
-wine and chocolates for officials
-entry bands
-payment card machine
-float for entries and raffle
-calculating how many medals of each type needed
-coaches volunteering organised by Katy
-door entry
-raffle table
-medal table
-warm up groupings and timing
-book pool
-book studio
-send layout for pool
-ask for 20 chairs and a couple of tables 
-ask for urn to be filled and on
-tape binbags around the pool
-email whole club the day before to give spectator fees, warm up times
-team managers 1:10
-marshalls
-timekeepers
-J2 judges
-referee (needs to ok the meet conditions before sending license application off)
-officials expenses form (check it is still ok) sent to other clubs
-how to manage rejections
-decide which clubs will be invited
-decide on where clubs will site during gala
-risk assessment (Clare Crossman)
-save the date email to clubs invited - 3 months before (Andy Dennis)
-ANdy archibald organises the timing team
-email license application and meet conditions to Barry @ SE letting him know who the lead ref is and that they have okayed the meet conditions
-lap counters
-ask Willowburn to set out spectator chairs the night before
-benches
-team name signs
-add to swim manager with closing date 2 weeks before
-set up volunteer roles section in swim manager
-save risk register to google drive
-test the sound system
-email out changes to usual training
-give volunteer list to entry table team
-seat numbers
-blu tack
-napkins coffee tea bags mugs sugar
-counting medals/ordering if not enough
-raffle tickets
-tidy up
-send restults to british rankings?
+## Plan for bigger invitationals
+
+![](pool_plan_gala.jpg)
+
+## Plan for single session events
+
+![](pool_plan_distance_gala.jpg)
+
+## Studio layout
+
+![](studio_plan.jpg)
