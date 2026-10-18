@@ -20,7 +20,9 @@ each time are:
 This person takes responsibility for ensuring the [gala checklist](gala-checklist.qmd) is
 completed on time for their gala. 
 They ensure each named and unnamed role is filled as needed, and often also perform the
-role of Runner on the day. 
+role of Runner on the day, and checks in regularly with all other volunteers to
+help troubleshoot where necessary.
+They are also the main point of contact for pool staff throughout the event. 
 Each gala has its own Lead Organiser, and the role benefits from strong organisational
 and timekeeping skills.
 The organisation of a gala starts months before, so the time needed to perform
@@ -30,9 +32,12 @@ this role is more than some others.
 Ensure the timing team is organised and has what they need before, and during
 the gala. Escalate issues to the lead organiser.
 
-### 📋 Lead poolside 
+### 📋 Lead poolside team
 This person is responsible for ensuring all team managers and marshall roles
-are filled and coordinated. Escalate issues to the lead organiser.
+are filled and coordinated. 
+Escalate issues to the lead organiser.
+All poolside staff must have DBS checks and must sign up for their role on Swim
+Manager.
 
 ### 🎁 Raffle
 Sell raffle tickets on the day and help to call the winners.
